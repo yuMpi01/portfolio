@@ -34,7 +34,7 @@ export default function Menu() {
           </div>
         </div>
       </div>
-      <div className={showMenu ? " smneu absolute w-lg h-screen py-17.5 top-0 right-0 bg-white z-40 overflow-hidden duration-1000" : " smneu absolute w-lg h-screen py-17.5 top-0 right-[-100%] bg-white z-40 overflow-hidden duration-1000"} >
+      <div className={showMenu ? " smneu absolute w-lg h-screen py-17.5 top-0 right-0 bg-white z-40 overflow-hidden duration-1000" : " smneu absolute w-lg h-screen py-17.5 top-0 right-[-130%] bg-white z-40 overflow-hidden duration-1000"} >
         <div className=" w-full h-full relative ">
           <nav className=" py-17 pl-36 ">
             <ul>

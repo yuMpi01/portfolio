@@ -5,8 +5,8 @@ export default function Project(props) {
   return (
     <div className=" lg:w-[33.3333%] md:w-[50%] w-full h-[610px] lg:basis-[33.33%] md:basis-[50%] basis-full pt-10 px-5 ">
       <div className=" w-full h-full p-7.5 rounded-3xl bg-white relative overflow-hidden ">
-        <div className="img w-full h-60 bg-teal-500 rounded-2xl overflow-hidden">
-          <img src={props.imgLink} alt={props.imgAlt} className=" w-full h-full object-cover " />
+        <div className=" w-full h-60 bg-teal-500 rounded-2xl overflow-hidden flex justify-center items-center">
+          {props.desc}
         </div>
         <div className="desc mt-7.5 w-full ">
           <p className=" text-[13px] text-[#29a587] font-[font1] font-bold uppercase ">
