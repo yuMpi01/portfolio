@@ -2,6 +2,7 @@ import Menu from "../components/Menu"
 import Footer from "../components/Footer"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faReply } from "@fortawesome/free-solid-svg-icons"
+import blog01 from "./../img/blog01.jpg"
 
 export default function SinglePost(){
     return(
@@ -20,7 +21,7 @@ export default function SinglePost(){
                         <h1 className=" max-w-[90%] lg:text-5xl text-4xl leading-[1.3] font-bold uppercase font-[font1] tracking-wider text-center mt-2.5 ">The Main Thing For The Designer</h1>
                     </div>
                     <div className=" w-full h-[740px] bg-teal-400 ">
-                        <img src="./../img/blog01.jpg" alt="" className=" w-full h-full object-cover " />
+                        <img src={blog01} alt="" className=" w-full h-full object-cover " />
                     </div>
                     <div className=" absolute right-8 bottom-40 flex-col sm:flex hidden ">
                         <div className=" w-56 h-56 absolute -top-45 -right-42.5 ">
