@@ -3,6 +3,11 @@ import Footer from "../components/Footer"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faReply } from "@fortawesome/free-solid-svg-icons"
 import blog01 from "./../img/blog01.jpg"
+import quote2 from "./../img/quote2.png"
+import img01 from "./../img/img01.jpg"
+import img02 from "./../img/img02.jpg"
+import avatar from "./../img/avatar.png"
+import pat1 from "./../img/pat-1.png"
 
 export default function SinglePost(){
     return(
@@ -25,7 +30,7 @@ export default function SinglePost(){
                     </div>
                     <div className=" absolute right-8 bottom-40 flex-col sm:flex hidden ">
                         <div className=" w-56 h-56 absolute -top-45 -right-42.5 ">
-                            <img src="./../img/pat-1.png" alt="" />
+                            <img src={pat1} alt="" />
                         </div>
                         <div className=" w-0.5 h-[720px] bg-black relative ">
                             <div className=" w-7.5 h-7.5 shadow2 bg-white border-[2px] border-black border-solid rounded-[30px] absolute top-[-15px] right-[50%] translate-x-[50%] "></div>
@@ -41,7 +46,7 @@ export default function SinglePost(){
                         </p>
                         <div className=" w-full my-12.5 ml-12.5 px-12.5 pt-16 text-[22px] leading-[1.3] border-l-[1px] border-l-black border-l-solid relative ">
                             <div className=" absolute top-0 ">
-                                <img src="./../img/quote2.png" alt="" />
+                                <img src={quote2} alt="" />
                             </div>
                             <p className=" text-[22px] text-[rgb(38,38,38)] leading-[1.3] my-7.5 ">Photography is the story I fail to put into words get ligula vel, commodo luctus felis. Ut dignissim sapien sit amet molestie rutr</p>
                             <p className=" text-[16px] font-bold text-[#29a587] ">– Destin Sparks</p>
@@ -50,10 +55,10 @@ export default function SinglePost(){
                         <p className=" my-7.5 text-[rgb(38,38,38)] leading-[1.7] ">Vivamus interdum suscipit lacus. Nunc ultrices accumsan mattis. Aliquam vel sem vel velit efficitur malesuada. Donec arcu lacus, ornare eget ligula vel, commodo luctus felis. Ut dignissim sapien sit amet molestie rutrum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque in porta dolor, a suscipit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac arcu in lorem rhoncus ullamcorper. Ut at nulla ut libero mollis viverra sed vitae purus.</p>
                         <div className=" w-full flex sm:flex-nowrap flex-wrap justify-between ">
                             <div className=" sm:w-[50%] w-full p-4 ">
-                            <img src="./../img/img01.jpg" alt="" />
+                            <img src={img01} alt="" />
                             </div>
                             <div className=" sm:w-[50%] w-full p-4 ">
-                            <img src="./../img/img02.jpg" alt="" />
+                            <img src={img02} alt="" />
                             </div>
                         </div>
                         <p className=" my-7.5 text-[rgb(38,38,38)] leading-[1.7] ">Nam dui mauris, congue vel nisi in, tempus gravida enim. Nulla et tristique orci. Pellentesque lectus sapien, maximus id gravida sit amet, tristique non eros. Etiam aliquet, sem vitae sagittis convallis, ante sapien tincidunt nisl, eget dapibus tortor velit quis ex. Proin et condimentum est, sed pretium ex. Mauris posuere est metus, vitae commodo sem posuere eget. Praesent maximus augue rutrum, consequat magna id, facilisis lorem. Quisque molestie, turpis ac interdum gravida</p>
@@ -77,7 +82,7 @@ export default function SinglePost(){
                                 <div className=" w-full ">
                                     <div className=" flex my-15 ">
                                         <div className=" w-16 h-16 rounded-full overflow-hidden mr-10 ">
-                                            <img src="./../img/avatar.png" alt="" className=" w-full h-full " />
+                                            <img src={avatar} alt="" className=" w-full h-full " />
                                         </div>
                                         <div className=" w-[80%] ">
                                             <h5 className=" text-[22px] font-bold leading-[1.3] font-[font1] ">
@@ -93,7 +98,7 @@ export default function SinglePost(){
                                     </div>
                                     <div className=" flex ">
                                         <div className=" w-16 h-16 rounded-full overflow-hidden mr-10 ">
-                                            <img src="./../img/avatar.png" alt="" className=" w-full h-full " />
+                                            <img src={avatar} alt="" className=" w-full h-full " />
                                         </div>
                                         <div className=" w-[80%] ">
                                             <h5 className=" text-[22px] font-bold leading-[1.3] font-[font1] ">
@@ -133,7 +138,7 @@ export default function SinglePost(){
                     </div>
                     <div className=" absolute left-3 bottom-40 flex-col sm:flex hidden ">
                         <div className=" w-56.5 h-56.5 absolute -top-45 -left-42.5 ">
-                            <img src="./../img/pat-1.png" alt="" />
+                            <img src={pat1} alt="" />
                         </div>
                         <div className=" w-0.5 h-[3000px] bg-black relative ">
                             <div className=" w-7.5 h-7.5 shadow2 bg-white border-[2px] border-black border-solid rounded-[30px] absolute -top-3.5 right-[50%] translate-x-[50%] "></div>

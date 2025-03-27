@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight , faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+import pat2 from "./../img/pat-2.png"
 
 export default function ProjectWorks(props){
     return(
@@ -19,7 +20,7 @@ export default function ProjectWorks(props){
                   />
                 </div>
                 <div className=" w-35 h-35 absolute bottom-0 lg:right-[-12%] right-[-15%] z-[-1] md:block hidden ">
-                    <img src="./../img/pat-2.png" alt="" />
+                    <img src={pat2} alt="" />
                 </div>
               </div>
               <div className=" md:w-fit w-full flex flex-col justify-center relative md:mt-0 mt-4 ">

@@ -1,5 +1,6 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import pat2 from "./../img/pat-2.png"
 
 export default function Project(props) {
   return (
@@ -24,7 +25,7 @@ export default function Project(props) {
           </a>
         </div>
         <div className="bg w-35 h-35 absolute -right-6.5 -bottom-6.5 ">
-          <img src="./../img/pat-2.png" alt="" className=" w-full " />
+          <img src={pat2} alt="" className=" w-full " />
         </div>
       </div>
     </div>

@@ -14,6 +14,9 @@ import Project from "./Project";
 import blog01 from "./../img/blog01.jpg"
 import blog02 from "./../img/blog02.jpg"
 import blog03 from "./../img/blog03.jpg"
+import pat1 from "./../img/pat-1.png"
+import pat2 from "./../img/pat-2.png"
+import pat3 from "./../img/pat-3.png"
 
 export default function Home() {
 
@@ -122,13 +125,13 @@ export default function Home() {
               </div>
             </div>
             <div className=" sm:w-56 sm:h-56 w-44 h-44 absolute sm:top-0 -top-4 right-2 -z-10 ">
-              <img src="./../img/pat-1.png" alt="" className=" w-full " />
+              <img src={pat1} alt="" className=" w-full " />
             </div>
             <div className=" sm:w-36 w-24 h-24 sm:h-36 absolute bottom-12 sm:-left-32 -left-14 -z-10 ">
-              <img src="./../img/pat-2.png" alt="" className=" w-full " />
+              <img src={pat2} alt="" className=" w-full " />
             </div>
             <div className=" sm:w-36 w-24 h-24 sm:h-36 absolute bottom-0 -right-5 -z-10 ">
-              <img src="./../img/pat-2.png" alt="" className=" w-full " />
+              <img src={pat3} alt="" className=" w-full " />
             </div>
           </div>
         </div>
@@ -571,7 +574,7 @@ export default function Home() {
                 </div>
               </form>
               <div className=" w-60 h-60 absolute bottom-[-7%] left-[-18%] z-[-1] ">
-                <img src="./../img/pat-1.png" alt="" className=" w-full " />
+                <img src={pat1} alt="" className=" w-full " />
               </div>
             </div>
           </div>

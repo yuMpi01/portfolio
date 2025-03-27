@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import React from "react";
+import pat1 from "./../img/pat-1.png"
 
 export default function Menu() {
   const [showPages, setShowPages] = React.useState(false);
@@ -117,7 +118,7 @@ export default function Menu() {
           </nav>
           <div className=" absolute top-0 left-16 flex-col flex ">
             <div className=" w-56.5 h-56.5 absolute -top-45 -left-41 ">
-              <img src="./../img/pat-1.png" alt="" />
+              <img src={pat1} alt="" />
             </div>
             <div className=" w-0.5 height bg-black relative ">
               <div className=" w-7.5 h-7.5 shadow2 bg-white border-[2px] border-black border-solid rounded-[30px] absolute -top-3.5 right-[50%] translate-x-[50%] "></div>
