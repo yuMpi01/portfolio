@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.height{
+    height: 80vh;
+}
+
+.shadow1{
+    text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgba(0, 0, 0, 0.2)
+}
+
+.skillsBtn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    background-color: #29a587;
+    transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
+    transform: translate(-50%, -50%);
+    border-radius: 56px;
+    opacity: 0;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+a.skillsA:hover > .skillsBtn{
+    width: 95%;
+    height: 93%;
+    opacity: 1;
+    z-index: -1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+button.skillsA:hover > .skillsBtn{
+    width: 95%;
+    height: 93%;
+    opacity: 1;
+    z-index: -1;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.shadow2{
+    box-shadow:5px 5px rgba(0, 0, 0, 0.2) 
+}
+
+.transition01{
+    transition: all 0.6s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+.transition02{
+    transition: 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+@import "tailwindcss";
+
+
+
+@font-face {
+    font-family: font1;
+    src: url(./fonts/92zatBhPNqw73oTd4jQmfxI.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(./fonts/WnznHAc5bAfYB2QRah7pcpNvOx-pjfJ9eIWpZz5Kmgq3sw.woff);
+}
