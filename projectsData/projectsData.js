@@ -6,7 +6,7 @@ import Project04 from "./../img/project04.png"
 export default[
     {
         id:1,
-        imgLink:{Project01},
+        imgLink:"./../img/project01.png",
         imgAlt:"projet01 template1 yumpi01 nimaYamini",
         desc:"webflow, Karuso",
         descTitle:"Template 1",
@@ -15,7 +15,7 @@ export default[
     },
     {
         id:2,
-        imgLink:{Project02},
+        imgLink:"./../img/project02.png",
         imgAlt:"projet02 template2 yumpi01 nimaYamini",
         desc:"webflow, design&Creation",
         descTitle:"Template 2",
@@ -24,7 +24,7 @@ export default[
     },
     {
         id:3,
-        imgLink:{Project03},
+        imgLink:"./../img/project03.png",
         imgAlt:"projet03 template3 yumpi01 nimaYamini",
         desc:"webflow, Branding",
         descTitle:"Template 3",
@@ -33,7 +33,7 @@ export default[
     },
     {
         id:4,
-        imgLink:{Project04},
+        imgLink:"./../img/project04.png",
         imgAlt:"projet04 template4 yumpi01 nimaYamini AI recipe recipeGenerator",
         desc:"First react app",
         descTitle:"Ai recipe generator",
