@@ -3,7 +3,7 @@ import { faLinkedin , faGithub } from "@fortawesome/free-brands-svg-icons"
 
 export default function Footer() {
   return (
-    <footer className=" py-15 border-t-solid border-t-black/10 border-t-[1px] relative z-20 ">
+    <footer className=" py-15 border-t-solid border-t-black/10 border-t-[1px] relative z-20 overflow-x-hidden ">
       <div className=" px-28 flex flex-wrap justify-between md:flex-row flex-col items-center ">
         <div className=" md:w-[33%] px-3 flex justify-start gap-4 ">
           <a

@@ -19,7 +19,7 @@ export default function Menu() {
   showMenu ? overflow.style.overflow="hidden" : overflow.style.overflowY="scroll"
 
   return (
-    <header className="w-screen py-7.5 px-14 fixed top-0 left-0 z-50">
+    <header className="w-screen py-7.5 px-14 fixed top-0 left-0 z-50 overflow-x-hidden">
       <div className="w-full h-full flex justify-between items-center">
         <div className="flex gap-2 items-center">
           <p className="font-[font1] uppercase text-2xl text-black font-bold">

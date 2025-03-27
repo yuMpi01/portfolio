@@ -45,7 +45,7 @@ export default function Home() {
   })
 
   return (
-    <div className="wrapper w-full">
+    <div className="wrapper w-full overflow-x-hidden">
 
       {/* start header */}
 
