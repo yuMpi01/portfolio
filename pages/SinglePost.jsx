@@ -9,7 +9,7 @@ export default function SinglePost(){
         <>
             <Menu/>
 
-            <div className="wrapper w-full overflow-x-hidden">
+            <div className="wrapper w-full overflow-x-hidden overflow-y-clip">
                 <section className=" w-screen relative ">
                     <div className=" w-full flex flex-col items-center pt-55 pb-20 ">
                         <p className=" font-normal leading-[1.7] ">

@@ -36,7 +36,7 @@ export default function Works() {
     <>
       <Menu />
 
-      <div className="wrapper w-full overflow-x-hidden">
+      <div className="wrapper w-full overflow-x-hidden overflow-y-clip">
         <section className=" w-full mt-55 md:mb-30 mb-64 ">
           <div className=" w-full flex flex-col items-center ">
             <Title h2="Portfolio" span="Cases" />
