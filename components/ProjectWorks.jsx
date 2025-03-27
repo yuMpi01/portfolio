@@ -6,11 +6,8 @@ export default function ProjectWorks(props){
     return(
         <div className=" w-full flex h-[450px] justify-between md:flex-row flex-col mt-16 ">
               <div className=" md:w-[50%] w-full h-full relative group ">
-                <div className="img w-full h-full relative bg-teal-500 group overflow-hidden md:hover:scale-[0.96] hover:rounded-[0] hover:scale-[0.96] transition01 md:rounded-[0] rounded-3xl">
-                  <img
-                    src={props.imgLink} alt={props.imgAlt}
-                    className=" w-full h-full object-cover group-hover:scale-[1.07] transition01 "
-                  />
+                <div className="img w-full h-full relative bg-teal-500 group overflow-hidden md:hover:scale-[0.96] hover:rounded-[0] hover:scale-[0.96] transition01 md:rounded-[0] rounded-3xl flex justify-center items-center">
+                  {props.desc}
                   <div className="overlay w-full h-full absolute top-0 left-0 bg-[#101e32]/50 transition01 opacity-0 group-hover:opacity-100 "></div>
                 </div>
                 <div className=" absolute w-6 h-6 top-7.5 right-7.5 transition01 opacity-0 group-hover:opacity-100 cursor-pointer ">
